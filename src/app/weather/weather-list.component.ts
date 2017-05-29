@@ -13,9 +13,9 @@ import { WeatherInterface } from './weatherinterface';
                 <li *ngFor="let weather of weathers">
                     <span>{{weather.firstName}}</span>
 <br>
-<span>{{weather.lastName}}</span>
+<span>{{weather.humidity}}</span>
 <br>
-<span>{{weather.email}}</span>
+<span>{{weather.temp}}</span>
                 </li>
             </ul>
         </div>

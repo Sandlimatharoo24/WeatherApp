@@ -1,6 +1,5 @@
 export interface WeatherInterface {
-    id: number;
-    firstName: string;
-    lastName: string;
-    email: string;
+     humidity: string;
+     temp: string;
+
 }
