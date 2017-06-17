@@ -5,7 +5,7 @@ import { WeatherService } from './weather.service';
 @Component({
     selector: 'weather-parent',
     template: `
-        <h2>View Weather</h2>
+        <h2>Weather</h2>
         <weather-list></weather-list>
     `,
     providers: <any>[WeatherService]
